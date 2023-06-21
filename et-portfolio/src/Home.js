@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from "./Hero";
-import About from "./About";
+import AboutMe from "./AboutMe";
 import Contacts from "./Contacts";
 import Projects from "./Projects";
 
@@ -9,7 +9,7 @@ function Home() {
     <div className="home">
       <h2>Home</h2>
       <Hero />
-      <About />
+      <AboutMe />
       <Contacts />
       <Projects />
       {/* Home contents / links to other pages */}
