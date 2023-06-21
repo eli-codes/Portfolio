@@ -1,0 +1,43 @@
+.Contacts {
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 24;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 5px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.Email {
+  color: #007bff;
+}
+
+.PhoneNumber {
+  color: #dc3545;
+}
+
+.Adress {
+  color: #17a2b8;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

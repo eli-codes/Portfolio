@@ -1,0 +1,93 @@
+/* Container */
+.about-me {
+  max-width: 800;
+  margin: 0 auto;
+  padding: 40ps;
+  background-color: beige;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+.about-me h1 {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 20px;
+}
+
+/* Description */
+.about-me p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+/* Skills */
+.about-me .skills {
+  margin-bottom: 20px;
+}
+
+.about-me .skills h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.about-me .skills ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.about .skills li {
+  display: inline-block;
+  margin-right: 10px;
+  background-color: #f2f2f2f2;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+/* Links */
+.about-me .links {
+  margin-bottom: 20px;
+}
+
+.about-me .links h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.about-me .links ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.about-me .links li {
+  margin-bottom: 5px;
+}
+
+.about-me .links a {
+  text-decoration: none;
+  color: #333333;
+}
+
+.about-me .link a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  .about-me {
+    padding: 20px;
+  }
+}
+
+.about-me p {
+  font-size: 14px;
+}
+
+.about-me .skills h2,
+.about-me .links h2 {
+  font-size: 18px;
+}
