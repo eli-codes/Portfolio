@@ -3,6 +3,7 @@ import Hero from "./Hero";
 import AboutMe from "./AboutMe";
 import Contacts from "./Contacts";
 import Projects from "./Projects";
+import "./Home.css";
 
 function Home() {
   return (
