@@ -10,9 +10,6 @@ function Home() {
     <div className="home">
       <h2>Home</h2>
       <Hero />
-      <AboutMe />
-      <Contacts />
-      <Projects />
       {/* Home contents / links to other pages */}
     </div>
   );

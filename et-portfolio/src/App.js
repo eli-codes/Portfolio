@@ -7,21 +7,19 @@ import Hero from "./Hero";
 import AboutMe from "./AboutMe";
 import Contacts from "./Contacts";
 import Projects from "./Projects";
-
 function App() {
   return (
     <BrowserRouter>
       <Navigation />
       <div className="App">
         <Routes>
-          <Route exact path="/" component={Home} />
-          <Route path="/about-me" component={AboutMe} />
-          <Route path="/contacts" component={Contacts} />
-          <Route path="/projects" component={Projects} />
+          <Route exact path="/" element={<Home />} />
+          <Route path="/about-me" element={<AboutMe />} />
+          <Route path="/contacts" element={<Contacts />} />
+          <Route path="/projects" element={<Projects />} />
         </Routes>
       </div>
     </BrowserRouter>
   );
 }
-
 export default App;

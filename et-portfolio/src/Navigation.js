@@ -6,7 +6,7 @@ function Navigation() {
     <nav>
       <ul>
         <li>
-          <Link tp="/">Home</Link>
+          <Link to="/">Home</Link>
         </li>
         <li>
           <Link to="about-me">About Me</Link>
