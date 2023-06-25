@@ -34,3 +34,7 @@
   border-radius: 4px;
   cursor: pointer;
 }
+
+.hero-img {
+  background-size: contain;
+}

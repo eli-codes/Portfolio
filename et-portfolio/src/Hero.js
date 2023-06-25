@@ -1,18 +1,14 @@
 import React from "react";
 import "./Hero.css";
+import HeroImg from "./img/hero.jpg";
 
-const Hero = () => {
+function Hero() {
   return (
-    <div className="hero">
-      <div className="hero-content">
-        <h1 className="hero-title">Welcome to My Portfolio</h1>
-        <p className="hero-subtitle">
-          I am a professional web developer creating amazing websites
-        </p>
-        <button className="hero-button">View My Work</button>
-      </div>
+    <div className="hero-section">
+      <h1 className="hero-text">Welcome to my landing page!</h1>
+      <img src={HeroImg} alt="Hero Image" />
     </div>
   );
-};
+}
 
 export default Hero;
